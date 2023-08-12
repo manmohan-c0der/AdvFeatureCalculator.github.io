@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+html body {
+    width: 100%;
+    height: 100%;
+    font-family: Ubuntu;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-red {
+    background: red;
+}
+
+.mx-auto {
+    margin: auto;
+}
+h3
+{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 5px double black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.button {
+    width: 75px;
+    padding: 10px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:yellow;
+    /* color: yellow; */
+}
+.button::after{
+    background-color:red;
+    color: red;
+}
+
+
+.row {
+    margin: 8px 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.row input {
+    width: 331px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.container {
+    border: 3px solid black;
+    background-color: aqua;
+    width: 360px;
+}
